@@ -1,0 +1,17 @@
+:root {
+	--btn-bg: rgba(255, 255, 255, .4);
+	--btn-accent-bg: #6157ea;
+	--element-bg: rgba(255, 255, 255, .6);
+	--rectangel-bg: #ea5959;
+	--line-bg: #e8e5ff;
+
+	--color-primary: #2d2b5c;
+	--color-second: #1a1930;
+	--color-light-dark: #c1c1c1;
+	--color-gray: #abaabb;
+	--color-stroke: #fbfbff;
+	--color-light: #fff;
+
+	--border-radius: 5px;
+	--shadow: 0px 4px 20px rgba(193, 193, 193, 0.3);
+}

@@ -1,0 +1,787 @@
+@media (max-width: 1428px) {
+	.team__wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+}
+
+@media (max-width: 1366px) {
+	.footer::after {
+		opacity: 0.1;
+	}
+}
+
+@media (max-width: 1240px) {
+	.technology__title_right {
+		margin-left: 0;
+	}
+
+	.techology__item {
+		flex: 1 1 100%;
+		order: 5;
+		margin-bottom: 30px;
+	}
+
+	.line-left::after,
+	.line-right::after {
+		display: none;
+	}
+}
+
+@media (max-width: 1200px) {
+	.social-media__slide {
+		width: 100% !important;
+	}
+}
+
+@media (max-width: 1024px) {
+	.hero__inner_decor::after {
+		right: -125px;
+		width: 770px;
+	}
+
+	.hero__title {
+		font-size: 60px;
+	}
+
+	.numbers__decor::before {
+		top: -176px;
+	}
+
+	.numbers__text {
+		margin-right: 65px;
+	}
+
+	.numbers__content {
+		margin-top: 50px;
+	}
+
+	.number__amount {
+		font-size: 60px;
+	}
+
+	.technology__title {
+		font-size: 45px;
+		max-width: 100%;
+	}
+
+	.features__decor::before {
+		width: 110%;
+		height: 45%;
+		top: 40%;
+	}
+
+	.features__item {
+		flex: 1 1 calc(100% / 2 - 50px);
+	}
+
+	.features__item_line::before,
+	.features__item_line::after {
+		display: none;
+	}
+
+	.techology__img_revers {
+		order: 1;
+	}
+
+	.price::before {
+		height: 47.7%;
+	}
+
+	.product__body {
+		padding: 30px;
+	}
+
+	.product__footer {
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.product__inner {
+		margin-right: 10px;
+	}
+
+	.questions__item-title {
+		font-size: 36px;
+		padding-left: 110px;
+	}
+
+	.about__text p {
+		font-size: 26px;
+	}
+
+	.contact__row {
+		flex-direction: column;
+	}
+
+	.contact__column:first-child {
+		order: 2;
+		margin-top: 40px;
+	}
+
+	.form-contact,
+	.contact__block-text {
+		max-width: 100%;
+	}
+
+	.social-media .tns-controls button[data-controls="prev"] {
+		position: absolute;
+		left: 15px;
+	}
+
+	.social-media .tns-controls button[data-controls="next"] {
+		right: 15px;
+	}
+
+	.social-media .tns-controls button[data-controls="prev"],
+	.social-media .tns-controls button[data-controls="next"] {
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.footer__inner {
+		flex-wrap: wrap;
+	}
+
+	.footer__inner::before,
+	.footer__inner::after {
+		display: none;
+	}
+
+	.footer__item:first-child,
+	.footer__item:last-child {
+		flex-basis: 100%;
+	}
+
+	.footer__item:first-child {
+		order: 2;
+	}
+
+	.footer__menu {
+		/* display: flex; */
+		flex-direction: column;
+		flex-grow: 1;
+	}
+
+	.footer__menu:not(:last-child) {
+		margin-right: 0;
+	}
+
+	.footer__address {
+		margin-top: auto;
+	}
+
+	.footer__logo.footer__logo_mobile {
+		display: inline-block;
+		margin-bottom: 40px;
+	}
+
+	.footer__logo {
+		display: none;
+	}
+
+	.footer__right {
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 992px) {
+	.numbers__decor::before {
+		opacity: 0.4;
+	}
+
+	.numbers__inner {
+		flex-direction: column;
+	}
+
+	.section-title {
+		font-size: 62px;
+		margin-bottom: 20px;
+	}
+
+	.numbers__text {
+		margin-bottom: 10px;
+	}
+
+	.numbers__content {
+		margin-top: 0;
+	}
+
+	.product__list {
+		margin-bottom: 30px;
+	}
+
+	.product__footer {
+		justify-content: center;
+		margin-right: 0;
+	}
+
+	.product__inner {
+		margin-bottom: 10px;
+	}
+
+	.team__inner {
+		flex-wrap: wrap;
+	}
+
+	.about__row {
+		flex-direction: column;
+	}
+
+	.title-line::after {
+		display: none;
+	}
+
+	.news-post__title {
+		font-size: 28px;
+	}
+
+
+}
+
+
+
+@media (max-width: 768px) {
+	.mobile {
+		display: block;
+		z-index: 20;
+		top: 28px;
+	}
+
+	.header__inner {
+		padding: 20px 0;
+	}
+
+	.header__menu {
+		position: fixed;
+		top: 0;
+		left: -100%;
+		width: 100%;
+		height: 100%;
+		background-color: var(--color-light);
+		transition: all 0.3s ease 0s;
+		overflow: auto;
+		padding-top: 120px;
+		z-index: 5;
+	}
+
+	.header__menu.header__menu_open,
+	.header__menu.header__menu_open::before {
+		left: 0;
+	}
+
+	.menu__list {
+		display: block;
+		text-align: center;
+	}
+
+	.menu__item {
+		margin: 30px 0;
+	}
+
+	.menu__item:not(:last-child) {
+		margin-right: 0;
+	}
+
+	.menu__link {
+		font-size: 30px;
+	}
+
+	.header__btn {
+		margin-left: auto;
+		margin-right: 80px;
+	}
+
+	.hero__inner_decor::after {
+		opacity: 0.5;
+		width: 742px;
+		right: -264px;
+	}
+
+	.hero__title {
+		margin-bottom: 20px;
+		font-size: 45px;
+	}
+
+	.hero__text {
+		font-size: 25px;
+	}
+
+	.brends__list {
+		justify-content: center;
+	}
+
+	.features__decor::before {
+		width: 130%;
+		height: 45%;
+		top: 15%;
+	}
+
+	.reatures__inner {
+		margin-bottom: 40px;
+	}
+
+	.section-title {
+		font-size: 52px;
+	}
+
+	.features__item {
+		flex: 1 1 100%;
+	}
+
+	.features__item_line::before,
+	.features__item_line::after {
+		display: block;
+		top: 0;
+		right: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: calc(100% - 94px);
+		height: 2px;
+	}
+
+	.features__item_line::after {
+		top: auto;
+		bottom: 0;
+	}
+
+	.item-techology__title {
+		margin-bottom: 10px;
+	}
+
+	.item-techology__text {
+		margin-bottom: 30px;
+	}
+
+	.price::before {
+		height: 22.7%;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.product {
+		flex: 1 1 100%
+	}
+
+	.product:not(:last-child) {
+		margin-bottom: 20px;
+	}
+
+	.product__footer {
+		justify-content: space-between;
+	}
+
+	.team {
+		padding: 20px 0;
+	}
+
+	.team__inner {
+		margin-bottom: 50px;
+	}
+
+	.questions::after {
+		opacity: 0.3;
+	}
+
+	.about__item {
+		padding: 50px 60px 160px 60px;
+	}
+
+	.about__text p {
+		font-size: 22px;
+	}
+
+	.about__column:not(:last-child) {
+		margin-right: 0;
+	}
+
+	.title-line {
+		margin-bottom: 30px;
+	}
+
+	.news__items {
+		justify-content: flex-start;
+	}
+
+	.news-post {
+		padding: 20px 20px 45px 20px;
+	}
+
+	.news__item:last-child::before {
+		display: none;
+	}
+
+	.news-post__img {
+		height: 230px;
+	}
+
+	.news__items {
+		flex-wrap: wrap;
+	}
+
+	.news-post {
+		max-width: 100%;
+	}
+
+	.contact {
+		padding: 0;
+	}
+
+}
+
+@media (max-width: 680px) {
+	.questions__item-title {
+		font-size: 22px;
+		padding-left: 64px;
+	}
+
+	.questions__item-title::before {
+		width: 40px;
+		height: 40px;
+		background-size: cover;
+	}
+
+}
+
+@media (max-width: 480px) {
+	.section-title {
+		font-size: 50px;
+	}
+
+	.features {
+		padding-top: 15px;
+	}
+
+	.techology__img {
+		height: 388px;
+	}
+
+	.section-title {
+		font-size: 30px;
+	}
+
+	.item-techology__text p {
+		font-size: 16px;
+	}
+
+	.about__item {
+		padding: 60px 20px 160px 20px;
+	}
+
+	.about__header {
+		flex-direction: column;
+		align-items: flex-start;
+		margin-bottom: 26px;
+	}
+
+	.about__star {
+		justify-content: flex-start;
+	}
+}
+
+@media (max-width: 425px) {
+	.mobile {
+		top: 22px;
+	}
+
+	.teg {
+		font-size: 12px;
+		height: 15px;
+		padding-left: 17px;
+	}
+
+	.teg::before {
+		width: 10px;
+		height: 10px;
+	}
+
+	.header__btn {
+		min-height: 50px;
+		font-size: 15px;
+		margin-right: 58px;
+		width: 118px;
+	}
+
+	.hero__inner {
+		padding-top: 110px;
+		padding-bottom: 0;
+	}
+
+	.hero__inner_decor::after {
+		display: none;
+	}
+
+	.hero__title {
+		font-size: 30px;
+	}
+
+	.hero__text {
+		font-size: 18px;
+		margin-bottom: 25px;
+	}
+
+	.hero__button {
+		margin-bottom: 35px;
+	}
+
+	.hero__teg {
+		font-size: 12px;
+	}
+
+	.brends {
+		padding: 15px 0;
+	}
+
+	.numbers__decor::before {
+		width: 410px;
+		height: 510px;
+		top: 0;
+		left: -90px;
+	}
+
+	.numbers {
+		padding: 40px 0;
+	}
+
+	.numbers__suptitle {
+		font-size: 12px;
+	}
+
+	.numbers__item {
+		padding: 15px 0;
+	}
+
+	.number__amount {
+		font-size: 30px;
+	}
+
+	.number__title {
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+
+	.number__text {
+		font-size: 16px;
+	}
+
+	.features__button {
+		min-height: 50px;
+	}
+
+	.techology__img {
+		margin-bottom: 20px;
+	}
+
+	.features__item {
+		padding: 25px;
+	}
+
+	.features-info__title {
+		font-size: 30px;
+	}
+
+	.features-info__text,
+	.features-info__description {
+		font-size: 16px;
+	}
+
+	.item-techology__title {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+
+	.price {
+		padding: 25px 0;
+	}
+
+	.price::before {
+		height: 72%;
+		width: 400%;
+	}
+
+	.title-line {
+		margin-bottom: 30px;
+	}
+
+	.team__button:not(:last-child) {
+		margin-right: 15px;
+	}
+
+	.team__button_see {
+		width: 139px;
+	}
+
+	.questions {
+		padding-bottom: 25px;
+	}
+
+	.questions::after {
+		top: 0;
+	}
+
+	.questions__title {
+		margin-bottom: 0;
+	}
+
+	.about {
+		padding: 25px 0;
+	}
+
+	.about__item {
+		padding: 15px 10px 80px 10px;
+
+	}
+
+	.about__user {
+		width: 180px;
+		height: 180px;
+	}
+
+	.about__row,
+	.about__column {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.about__name {
+		font-size: 34px;
+	}
+
+	.about__position {
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+
+	.about__header {
+		align-items: center;
+	}
+
+	.about__header-inner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.about__star {
+		justify-content: center;
+	}
+
+	.about .tns-controls {
+		right: 20px;
+		bottom: 20px;
+	}
+
+	.news__inner {
+		flex-direction: column;
+		align-items: flex-start
+	}
+
+	.news-post__title {
+		font-size: 22px;
+	}
+
+	.contact__column:first-child {
+		margin-top: 20px;
+	}
+
+	.contact__block-text p {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 375px) {
+	.logo__img {
+		width: 100px;
+	}
+
+	.numbers__decor::before {
+		top: -50px;
+	}
+
+	.numbers__item {
+		padding: 10px 0;
+	}
+
+	.number__title {
+		line-height: 1.3;
+		margin-bottom: 6px;
+	}
+
+	.number__text {
+		font-size: 15px;
+	}
+
+	.features__button {
+		margin-top: 10px;
+	}
+
+	.techology__img {
+		height: 267px;
+	}
+
+	.product__title {
+		margin-bottom: 20px;
+	}
+
+	.product__item {
+		font-size: 16px;
+	}
+
+	.product__footer {
+		justify-content: center;
+	}
+
+	.product__price {
+		font-size: 70px;
+	}
+
+	.button {
+		min-height: 50px;
+	}
+
+	.questions__item-title::before {
+		width: 30px;
+		height: 30px;
+		background-size: cover;
+	}
+
+	.questions__item-title {
+		font-size: 18px;
+		padding: 22px 0 22px 45px;
+	}
+
+	.about__text p {
+		font-size: 18px;
+	}
+
+	.footer {
+		padding: 35px 0 35px 0;
+	}
+
+	.footer__left {
+		min-height: 200px;
+	}
+
+	.footer__address {
+		margin-top: 100px;
+	}
+
+	.address__item,
+	.footer__copy {
+		font-size: 14px;
+	}
+
+	.footer__copy {
+		margin-top: 25px;
+		margin-bottom: 0;
+	}
+
+}
+
+@media (max-width: 320px) {
+	.brends__item {
+		margin: 5px 15px;
+	}
+}
